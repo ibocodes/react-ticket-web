@@ -10,7 +10,7 @@ export const Navbar: React.FC<{ onLogout?: ()=>void }> = ({ onLogout }) => {
       <div style={{display:"flex",alignItems:"center",gap:9, marginLeft:12}}>
         <strong style={{color:"#0f62ff"}}>TicketApp</strong>
         <nav className="nav-links" aria-label="Main navigation" >
-          <Link to="/" style={{color:"#0f62ff", textDecoration:"none", marginLeft:10, fontWeight:700}}>Home</Link>
+          <Link to="/" style={{color:"#0f62ff", textDecoration:"none", marginLeft:10, }}>Home</Link>
           {auth && <Link to="/dashboard" style={{color:"#0f62ff", textDecoration:"none"}}>Dashboard</Link>}
           {auth && <Link to="/tickets" style={{color:"#0f62ff", textDecoration:"none"}}>Tickets</Link>}
         </nav>
