@@ -1,5 +1,5 @@
 /* src/App.tsx */
-import React, { useState } from "react";
+import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Landing from "./pages/landing";
 import AuthLogin from "./pages/authlogin";

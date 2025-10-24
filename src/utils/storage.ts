@@ -1,5 +1,5 @@
 /* src/utils/storage.ts */
-import { Ticket } from "../types";
+import type { Ticket } from "../types";
 const TICKETS_KEY = "ticketapp_tickets_v1";
 export function loadTickets(): Ticket[] {
   try {
